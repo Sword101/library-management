@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.container {
+  display: inline-grid;
+  grid-template-columns: 150px 150px 150px 150px;
+}
+
+.card{
+    margin-top: 4vh;
+    margin-left: 4vh;
+    height: 20vh;
+    width: 15vh;
+    background: lightgreen;
+    color: blue;
+    border-radius: 10px;
+}
+
+.card > h2{
+    margin-top: 2vh;
+    margin-left: 4vw;
+}
+
+.card > h3{
+    margin-left: 3vw;
+}
+.card > button{
+    margin-top: 2vh;
+    margin-left: 3vw;
+}
+
+#inputs{
+    display: none;
+}
